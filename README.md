@@ -30,23 +30,23 @@ Student-Record-System/
 
 
 
-## ▶️ How to Run the Project
+##  How to Run the Project
 
-### 1️⃣ Install Java
+### 1️ Install Java
 Make sure Java (JDK 8 or above) is installed.
 
-### 2️⃣ Compile the code
+### 2️ Compile the code
 
 javac StudentGUI.java
 
-### 3️⃣ Run the application
+### 3️ Run the application
 ```
 java StudentGUI
 ```
 
 
 
-## 🖥️ Application Interface
+##  Application Interface
 The GUI contains:
 - Input fields for ID, Name, and Age  
 - Buttons for Add, View, and Delete operations  
