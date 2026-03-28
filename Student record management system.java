@@ -73,5 +73,32 @@ public class StudentGUI extends JFrame {
             }
         });
 
+        // View Students
+        viewButton.addActionListener(e -> {
+            displayArea.setText("");
+            for (Student s : students) {
+                displayArea.append(s.id + " | " + s.name + " | " + s.age + "\n");
+            }
+        });
+
+        // Delete Student
+        deleteButton.addActionListener(e -> {
+            try {
+                int id = Integer.parseInt(idField.getText());
+                students.removeIf(s -> s.id == id);
+                displayArea.setText("Student Deleted!\n");
+            } catch (Exception ex) {
+                displayArea.setText("Enter valid ID to delete!\n");
+            }
+        });
+
+        setVisible(true);
+    }
+
+    public static void main(String[] args) {
+        new StudentGUI();
+    }
+}
+
         
 
