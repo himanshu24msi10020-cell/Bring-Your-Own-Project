@@ -1,36 +1,34 @@
 # Bring-Your-Own-Project
-# 🎓 Student Record Management System (GUI-Based)
+#  Student Record Management System (GUI-Based)
 
-## 📌 Project Overview
+##  Project Overview
 This project is a Java-based **Graphical User Interface (GUI)** application developed using **Swing** to manage student records efficiently. It provides a user-friendly interface for adding, viewing, and deleting student details.
 
----
 
-## 🚀 Features
-- ➕ Add new student records  
-- 📋 View all students  
-- ❌ Delete student by ID  
-- 🖥️ Interactive GUI (no command line needed)  
-- ⚡ Real-time updates  
 
----
+# Features
+-  Add new student records  
+-  View all students  
+-  Delete student by ID  
+-  Interactive GUI (no command line needed)  
+- Real-time updates  
 
-## 🛠️ Technologies Used
+
+
+##  Technologies Used
 - Java  
 - Swing (GUI Framework)  
 - ArrayList (Data Storage)  
 - Event Handling  
 
----
 
-## 📂 Project Structure
-```
+##  Project Structure
+
 Student-Record-System/
 │── StudentGUI.java
 │── README.md
-```
 
----
+
 
 ## ▶️ How to Run the Project
 
@@ -38,16 +36,15 @@ Student-Record-System/
 Make sure Java (JDK 8 or above) is installed.
 
 ### 2️⃣ Compile the code
-```
+
 javac StudentGUI.java
-```
 
 ### 3️⃣ Run the application
 ```
 java StudentGUI
 ```
 
----
+
 
 ## 🖥️ Application Interface
 The GUI contains:
@@ -55,51 +52,51 @@ The GUI contains:
 - Buttons for Add, View, and Delete operations  
 - A display area to show results  
 
----
 
-## 🧠 Concepts Used
+
+##  Concepts Used
 - Object-Oriented Programming (OOP)  
 - Classes and Objects  
 - Event-driven programming  
 - GUI development using Swing  
 - Exception handling  
 
----
 
-## ⚠️ Challenges Faced
+
+##  Challenges Faced
 - Understanding GUI components  
 - Handling button events  
 - Managing dynamic data using ArrayList  
 
----
 
-## 📚 Learning Outcomes
+
+##  Learning Outcomes
 - Learned how to build GUI applications in Java  
 - Improved understanding of OOP concepts  
 - Gained experience in event handling  
 - Learned how to structure a real-world project  
 
----
 
-## 🔮 Future Improvements
+
+##  Future Improvements
 - Add search functionality  
 - Store data in files or database  
 - Improve UI design (JavaFX)  
 - Add update/edit feature  
 
----
 
-## 👨‍💻 Author
+
+##  Author
 Himanshu Singh  
 
----
 
-## 📎 Submission Details
+
+##  Submission Details
 This project includes:
 - GitHub Repository  
 - README File  
 - Project Report  
 
----
 
-⭐ If you like this project, feel free to give it a star!
+
+
