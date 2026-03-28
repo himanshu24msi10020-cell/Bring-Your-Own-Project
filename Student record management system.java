@@ -41,3 +41,37 @@ public class StudentGUI extends JFrame {
         ageField = new JTextField(10);
         add(ageField);
 
+        // Buttons
+        JButton addButton = new JButton("Add Student");
+        JButton viewButton = new JButton("View Students");
+        JButton deleteButton = new JButton("Delete Student");
+
+        add(addButton);
+        add(viewButton);
+        add(deleteButton);
+
+        // Display area
+        displayArea = new JTextArea(15, 40);
+        displayArea.setEditable(false);
+        add(new JScrollPane(displayArea));
+
+        // Add Student
+        addButton.addActionListener(e -> {
+            try {
+                int id = Integer.parseInt(idField.getText());
+                String name = nameField.getText();
+                int age = Integer.parseInt(ageField.getText());
+
+                students.add(new Student(id, name, age));
+                displayArea.setText("Student Added Successfully!\n");
+
+                idField.setText("");
+                nameField.setText("");
+                ageField.setText("");
+            } catch (Exception ex) {
+                displayArea.setText("Invalid Input!\n");
+            }
+        });
+
+        
+
